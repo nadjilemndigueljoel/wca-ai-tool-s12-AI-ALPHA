@@ -116,7 +116,7 @@ def open_past_session():
     filename = input("Enter the session file path: ").strip()
 
     try:
-        if not os.path.isabs(filename):
+        if not os.path.exists(filename):
             filename = os.path.join("sessions", filename)
 
         session = load_session(filename)
