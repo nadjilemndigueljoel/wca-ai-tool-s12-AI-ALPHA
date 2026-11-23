@@ -1,5 +1,5 @@
 {
-    "date": "2026-11-23-12-24-56",
+    "date": "2026-11-23-12-24-56.json",
     "messages": [
         {
             "role": "user",
@@ -21,7 +21,6 @@
             "role": "user",
             "content": "how much does a consultation cost?"
         },
-        
         {
             "role": "assistant",
             "content": "{\"answer\": \"A standard general practitioner (GP) consultation costs $50. Prices may vary depending on the duration or specific type of consultation required.\", \"topic\": \"Pricing\", \"follow_up\": \"Would you like to book a standard consultation or inquire about a specific treatment?\"}"
